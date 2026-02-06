@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 50px;
   color: rgb(127, 48, 255);
 }
