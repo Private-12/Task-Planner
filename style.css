@@ -1,0 +1,9 @@
+.header {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.headerDiv {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
