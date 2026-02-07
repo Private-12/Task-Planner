@@ -32,7 +32,7 @@ body {
   top: 20px;
   left: 20px;
   width: 4%;
-  transition: rotate , 1s;
+  transition: rotate , 0.75s;
 }
 
 #menu_butt:hover {

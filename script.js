@@ -1,14 +1,10 @@
 menu = document.getElementById("menu_butt")
 open = false
+rotate = 0
 
 menu.addEventListener("click" , opennav)
 
 function opennav() {
-    if (open == false) {
-        open = true
-        menu.style.transform = "rotate(90deg)"
-    } else {
-        open = false
-        menu.style.transform = "rotate(0deg)"
-    }
+    rotate++;
+    menu.style.transform = "rotate(" + (rotate*90) + "deg)"
 }
